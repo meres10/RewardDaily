@@ -83,6 +83,7 @@ Of curse, they are version dependent (check the Hints section below).
 ## Commands
 
 /rewarddaily Good_Pal
+
 /rewardvote  Good_Pal
 
 where Good_pal can be the player's IGN, or:
@@ -147,7 +148,9 @@ FYI @github.com/astei
 
 Contributors are welcome!
 Pull requests are welcome aswell, except over-sophisticated ones.
+
 **Keep It Simple Stupid!**
+
 [Check out The KISS principle](https://en.wikipedia.org/wiki/KISS_principle)
 
 ## Footnotes
