@@ -25,7 +25,7 @@ Therefore, soon you will be drifted into the 3 AM eternal.
 This plugin presents a 24 hours (one day) time frame
 from 00:00:00 to 23:59:59, allowing you to log in and
 gain rewards once a day - at any time within the frame.
-(there is UTC timescale at the [reference server](http://yeut.wtf))
+(there is UTC timescale at the [reference server](http://yeuy.wtf))
 
 Much comfortable for the players, isn't it?
 
@@ -77,7 +77,7 @@ vote:
 ```
 
 One can found more complex and exhaustive configuration examples in the
-[GitHub Repository](https://https://github.com/meres10/RewardDaily).
+[GitHub Repository](https://github.com/meres10/RewardDaily).
 Of curse, they are version dependent (check the Hints section below).
 
 ## Commands
@@ -137,7 +137,7 @@ rewards:
     commands:
     - rewardvote %player%
 ```
-FYI @github/astei
+FYI @github.com/astei
 
 ## TODO
 
@@ -155,7 +155,7 @@ Pull requests are welcome aswell, except over-sophisticated ones.
 That's all Folk's for now!
 
 One might try this out at yeuy.wtf in action!
-(also check my [server site](http://yeuy.wtf).
+(also check my [server site](http://yeuy.wtf)).
 
 This is my first genuine contribution to the github, and
 there might be more to come (hopefully - stay tuned).
