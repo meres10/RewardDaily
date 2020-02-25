@@ -138,7 +138,7 @@ rewards:
     commands:
     - rewardvote %player%
 ```
-FYI @github.com/astei
+FYI @astei
 
 ## TODO
 
