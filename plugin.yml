@@ -1,0 +1,22 @@
+name: RewardDaily
+main: com.meres.rewarddaily.RewardDaily
+version: 1.15.2
+description: Gives Rewards - Daily - for our players
+author: meres10
+commands:
+ rewarddaily:
+  description: Force [player] to take the daily reward.
+  permission: rewarddaily.force
+  usage: "Usage: /rewarddaily [player]"
+ rewardvote:
+  description: Force [player] to take the reward for votes.
+  permission: rewarddaily.force
+  usage: "Usage: /rewardvote [player]"
+permissions:
+ rewarddaily.*:
+  description: Grants all rights to rewarddaily operations
+  children:
+   rewarddaily.force: true
+  rewarddaily.force:
+   default: op                                      
+   description: Allow you to force player to get daily reward.

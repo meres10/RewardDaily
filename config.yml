@@ -1,0 +1,54 @@
+#
+# Default Configuration for RewardDaily
+# -------------------------------------
+#
+# The daily/vote random gifts are choosen from the lists below:
+#
+daily:
+ reward:
+  - cake 1
+  - apple 1
+  - apple 1
+  - apple 1
+  - carrot 2
+  - melon 2
+  - bread 2
+  - iron_axe 1
+  - iron_sword 1
+  - iron_pickaxe 1
+  - iron_shovel 1
+vote:
+ reward:
+  - emerald 1
+  - emerald 1
+  - emerald 1
+  - emerald 1
+  - emerald 1
+  - emerald 1
+  - emerald 1
+  - diamond 1
+#
+# RewardDaily constructs a give command for the giveouts, e.g.
+# - anvil 1
+# results the
+# give @p anvil 1    command
+#
+# The identifications of the stuff are depends on Bukkit version, like:
+#
+# for 1.15.2 version of Bukkit:
+# - wooden_hoe{ display:{Name:"[{\"text\":\"Tomb\"}", Lore:["[{\"text\":\"The Terrific Hoe\"}]"]}, Enchantments:[{id:"sharpness",lvl:5000}]} 1
+# - yellow_wool 1
+#
+# for 1.12.2 version of Bukkit:
+# - wooden_hoe 1 0 {display:{Name:"Tomb",Lore:["The Terrific Hoe"]},ench:[{id:16,lvl:5000}]}
+# - wool 1 4
+#
+# Therefore, only our config.yml content is version dependent,
+# not the plugin itself. (that is why we do not advertise API version)
+#
+# Note that extended attributes are in json format, and must fit in a single line.
+# {} denotes structural block, since [] denotes array of things.
+# Some guides for the giveouts as per 2020.02.24:
+# - https://www.digminecraft.com/generators
+# - https://www.gamergeeks.nz/apps/minecraft/give-command-generator
+# 
